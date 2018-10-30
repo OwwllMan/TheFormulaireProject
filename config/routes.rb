@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 	get 'users', to: 'users#new'
 	post 'users', to: 'users#create'
 	get 'users/:username', to: 'users#show', as: 'show'
-  get '/error', to: 'users#fail'
+  	get '/error', to: 'users#fail'
+  	get'/connexion', to: 'users#connexion'
 
   get '/home', to: 'statique#accueil'
   get '/new', to: 'users#new'

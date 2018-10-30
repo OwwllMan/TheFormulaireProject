@@ -1,5 +1,9 @@
 class UsersController < ApplicationController
 
+  def index
+    @user = User.all
+  end
+
   def new
 
   end
@@ -17,6 +21,14 @@ class UsersController < ApplicationController
   	@username = User.find_by(username: params[:username]).username
   	@email = User.find_by(username: params[:username]).email
   	@bio = User.find_by(username: params[:username]).bio
+  end
+
+  def destroy
+    @user.destroy
+  end
+
+  def connexion
+
   end
 
   def fail

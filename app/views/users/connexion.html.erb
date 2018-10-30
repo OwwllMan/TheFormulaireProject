@@ -1,0 +1,14 @@
+
+<h1 class="main-title">Bienvenue à dans l'espace de connexion</h1>
+<form action = "/users" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"><br>
+  <label for="username">Ton Prénom:</label>
+    <input class="form-control" name="username" id="username" placeholder="Prénom">
+    <small id="emailHelp" class="form-text text-muted"></small>
+<br>
+	<label for="email">Ton Email: </label>
+    <input class="form-control" id="email" name ="email" rows="3" placeholder="Email"></input	>
+  <small id="emailHelp" class="form-text text-muted"></small>
+ <br>
+   <button type="submit" class="btn btn-primary">Connexion</button>
+</form>
