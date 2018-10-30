@@ -1,9 +1,8 @@
-# TheHackingPinteres - 
+# TheFormulaire Project - 
 ### Production : https://theformulaireprojectstrasbpurg.herokuapp.com/
 ## 📰 The content
 
-we created a database, with a rails application, using the ActiveRecord gem.
-
+we created a application with backend and a database.
 **After cloning the repository, make sure to do :**
 
 ```sh
