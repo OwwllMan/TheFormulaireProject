@@ -1,0 +1,16 @@
+<h1>Bienvenue à toi dans la création de compte</h1>
+<br>
+<form action = "/users" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"><br>
+  <label for="username">Ton Prénom:</label>
+    <input class="form-control" name="username" id="username" placeholder="Prénom">
+    <small id="emailHelp" class="form-text text-muted"></small>
+<br>
+  <label for="bio">Ta Biographie: </label>
+    <textarea class="form-control" id="bio" name ="bio" rows="3" placeholder="Ta biographie"></textarea>
+  <small id="emailHelp" class="form-text text-muted"></small>
+
+ <br>
+   <button type="submit" class="btn btn-primary">Créer mon profil</button>
+  
+</form>
