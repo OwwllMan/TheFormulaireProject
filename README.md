@@ -7,11 +7,9 @@ we created a database, with a rails application, using the ActiveRecord gem.
 **After cloning the repository, make sure to do :**
 
 ```sh
-$ cd TheHackingPinterest
-$ cd TheHackingPinterest
+$ cd TheFormulaireProject
 $ bundle install
 $ rails db:migrate
-$ rails db:seed
 ```
 This will install all the dependencies needed for the exercises and create the database.
 
@@ -27,7 +25,7 @@ rails '5.2.1'
 
 you can find all the gems in the Gemfile in this directory : 
 
-BlogTHP/Blog/Gemfile
+TheformulaireProject/Gemfile
 
 ## :european_post_office: The Strasbourg Crew 💪
 Done with @zOmegad, @BrokenPirate, @mxrch, @Runefire32, and myself @OwwllMan
